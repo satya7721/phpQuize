@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+ .anime{
+    transition-duration:.2s;
+ }
+
+ .innerBox{
+     margin: auto;
+     padding: 30px;      
+ }
+
+ body{
+     background-color: #333646;
+ }
+
+ .customCard{
+ 
+     
+   
+    width: 50%;
+    height: 200px;
+    
+    border-radius: 10px;
+    padding-bottom: 70px;
+    margin-bottom: 10px;
+    
+ }
+ .card{
+    background-color: white;
+    padding-top: 5px;
+    margin-bottom: 10px;
+ }
+
+ .mybtn{
+ 
+   background-color: #9273cd;
+   border: none;
+   padding: 10px;
+   font-family: 'Poppins', sans-serif;
+   color: white;
+ 
+   border-radius: 10px;
+ }
+
+ h4{
+    font-family: 'Poppins', sans-serif;
+    color: rgb(20, 6, 82);
+ }
+ p{
+
+    font-family: 'Poppins', sans-serif;
+    color: rgb(163, 142, 255);
+ }
+ .card-title{
+   font-family: 'Poppins', sans-serif;
+   color: rgb(20, 6, 82);
+ }
+
+.mybtnR{
+   background-color: #ffffff;
+   border: none;
+   padding: 10px;
+   font-family: 'Poppins', sans-serif;
+   color: rgb(18, 15, 41);
+ 
+   border-radius: 10px;
+}
+ @media only screen and (max-width: 600px) {
+    .customCard{
+        
+     
+        width: 90%;
+        
+     }
+  }
+  button:focus {outline:0;}
